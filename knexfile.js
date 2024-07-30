@@ -2,9 +2,9 @@ const path = require("path");
 
 require("dotenv").config();
 
-const {
-  DATABASE_URL = "postgresql://welovemovies_w605_user:5o97DS7u1hbdDE3UKhzjVFbLhMsMFzKC@dpg-cqj9t70gph6c73943ct0-a.oregon-postgres.render.com/welovemovies_w605?ssl=true",
-} = process.env;
+//const {
+  DATABASE_URL = "postgresql://welovemovies_w605_user:5o97DS7u1hbdDE3UKhzjVFbLhMsMFzKC@dpg-cqj9t70gph6c73943ct0-a.oregon-postgres.render.com/welovemovies_w605?ssl=true"
+//} = process.env;
 
 module.exports = {
   development: {
